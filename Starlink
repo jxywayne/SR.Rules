@@ -93,7 +93,7 @@ compatibility-mode = 1
 
 [Ponte]
 # 通过代理使用 Ponte
-client-proxy-name = PROXY
+client-proxy-name = 🗺️PROXY
 
 [Panel]
 Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWalker,icon=aqi.medium,icon-color=#5AC8FA
