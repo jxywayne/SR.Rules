@@ -127,19 +127,22 @@ Telegram = select, HK, SG, US, MY
 Streaming = select, HK, TW, JP, SG, US, MY
 
 # 香港节点
-HK = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(港)|(Hong)|(HK), hidden=false
+HK = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
 
 # 台湾节点
-TW = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇨🇳)|(台)|(Tai)|(TW), hidden=false
+TW = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW), hidden=false
 
 # 日本节点
-JP = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日)|(Japan)|(JP), hidden=false
+JP = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), hidden=false
 
 # 新加坡节点
-SG = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇸🇬)|(新)|(Singapore)|(SG), hidden=false
+SG = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇸🇬)|(新加坡)|(Singapore)|(SG), hidden=false
 
 # 美国节点
-US = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美)|(States)|(US), hidden=false
+US = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), hidden=false
+
+# 马来西亚节点
+MY = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(my)|(马来)|(Malaysia)|(MY), hidden=false
 
 [Rule]
 # Custom
