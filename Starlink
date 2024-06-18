@@ -113,10 +113,10 @@ Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/su
 ✈️Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
 
 # ChatGPT 服务
-ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+🕸️ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
 
 # NAS 服务
-NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
+🗄️NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
 
 # 区域代理选择
 🗺️PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
@@ -174,13 +174,13 @@ RULE-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list,R
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/Video/YouTube.list,📹YouTube,extended-matching
 
 # ChatGPT 视频
-RULE-SET,https://raw.githubusercontent.com/waltcow/chatgpt-openclash/main/chatgpt.list,ChatGPT,extended-matching
+RULE-SET,https://raw.githubusercontent.com/waltcow/chatgpt-openclash/main/chatgpt.list,🕸️ChatGPT,extended-matching
 
 # Telegram 服务
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Telegram.list,✈️Telegram,extended-matching
 
 # NAS 服务
-RULE-SET,https://raw.githubusercontent.com/jxywayne/SurgeRules/main/NAS.list,NAS,extended-matching
+RULE-SET,https://raw.githubusercontent.com/jxywayne/SurgeRules/main/NAS.list,🗄️NAS,extended-matching
 
 # Twitter
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/X.list,🗺️PROXY,extended-matching
