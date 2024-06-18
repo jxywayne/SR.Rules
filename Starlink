@@ -142,7 +142,7 @@ SG = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token
 US = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), hidden=false
 
 # 马来西亚节点
-MY = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(my)|(马来)|(Malaysia)|(MY), hidden=false
+MY = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇲🇾)|(马来)|(Malaysia)|(MY), hidden=false
 
 [Rule]
 # Custom
