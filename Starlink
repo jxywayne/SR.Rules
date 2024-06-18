@@ -117,9 +117,6 @@ PROXY = select, HK, TW, JP, SG, US
 # 兜底策略
 Final = select, HK, TW, JP, SG, US, DIRECT
 
-# 新浪微博
-Weibo = select, DIRECT, HK, TW, JP, SG, US
-
 # YouTube 视频
 YouTube = select, HK, TW, JP, SG, US
 
@@ -174,9 +171,6 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Rulese
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list,REJECT,extended-matching
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list,REJECT,extended-matching
 RULE-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list,REJECT,extended-matching
-
-# 新浪微博 (国内用户建议直连）
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Weibo/Weibo.list,Weibo,extended-matching
 
 # YouTube 视频
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/Video/YouTube.list,YouTube,extended-matching
