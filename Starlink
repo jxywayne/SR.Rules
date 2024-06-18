@@ -110,12 +110,6 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 # 机场信息 (encode地址链接: https://www.urlencoder.org）
 Starlink = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, update-interval=3600, hidden=false
 
-# 区域代理选择
-PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
-
-# 兜底策略
-Final = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
-
 # YouTube 视频
 YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
 
@@ -127,6 +121,12 @@ ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美
 
 # NAS 服务
 NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
+
+# 区域代理选择
+PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+
+# 兜底策略
+Final = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
 
 # 香港节点
 🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
