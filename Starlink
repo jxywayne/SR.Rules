@@ -123,7 +123,7 @@ ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美
 NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
 
 # 区域代理选择
-PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+🗺️PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
 
 # 兜底策略
 🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
@@ -187,13 +187,13 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Rulese
 RULE-SET,https://raw.githubusercontent.com/jxywayne/SurgeRules/main/NAS.list,NAS,extended-matching
 
 # Twitter
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/X.list,PROXY,extended-matching
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/X.list,🗺️PROXY,extended-matching
 
 # GitHubs
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,PROXY,extended-matching
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,🗺️PROXY,extended-matching
 
 # Proxy
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list,PROXY,extended-matching
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list,🗺️PROXY,extended-matching
 
 # Direct
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list,DIRECT,extended-matching
@@ -205,7 +205,7 @@ RULE-SET,LAN,DIRECT
 GEOIP,CN,DIRECT
 
 # Proxy+
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy+.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy+.list,🗺️PROXY
 
 # 漏网之鱼 兜底
 FINAL,🐟漏网之鱼,dns-failed
