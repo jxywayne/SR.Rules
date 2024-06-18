@@ -208,7 +208,7 @@ GEOIP,CN,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy+.list,PROXY
 
 # 漏网之鱼 兜底
-FINAL,漏网之鱼,dns-failed
+FINAL,🐟漏网之鱼,dns-failed
 
 [Host]
 # Apple
