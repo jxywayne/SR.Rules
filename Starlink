@@ -115,7 +115,7 @@ Starlink = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscrib
 PROXY = select, HK, TW, JP, SG, US, MY
 
 # 兜底策略
-Final = select, HK, TW, JP, SG, US, MY DIRECT
+Final = select, HK, TW, JP, SG, US, MY, DIRECT
 
 # YouTube 视频
 YouTube = select, HK, TW, JP, SG, US, MY
