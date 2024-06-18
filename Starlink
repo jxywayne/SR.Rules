@@ -151,15 +151,15 @@ AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
 DOMAIN,app-site-association.cdn-apple.com,REJECT
 
 # Boxjs 代理
-DOMAIN-KEYWORD,jsdelivr.net,PROXY
+DOMAIN-KEYWORD,jsdelivr.net,🗺️PROXY
 
 # Sub-Store 的 Web 页面
-DOMAIN-SUFFIX,vercel.app,PROXY
+DOMAIN-SUFFIX,vercel.app,🗺️PROXY
 
 # TestFlight 商店
-DOMAIN,beta.apple.com,PROXY
-DOMAIN,testflight.apple.com,PROXY
-DOMAIN-KEYWORD,testflight,PROXY
+DOMAIN,beta.apple.com,🗺️PROXY
+DOMAIN,testflight.apple.com,🗺️PROXY
+DOMAIN-KEYWORD,testflight,🗺️PROXY
 
 # Direct+
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct+.list,DIRECT,extended-matching
