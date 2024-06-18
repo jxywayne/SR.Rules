@@ -179,12 +179,6 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Rulese
 RULE-SET,https://raw.githubusercontent.com/waltcow/chatgpt-openclash/main/chatgpt.list,ChatGPT,extended-matching
 
 # Telegram 服务
-# Telegram DC1
-IP-ASN,59930,US,no-resolve
-# Telegram DC3
-IP-ASN,211157,US,no-resolve
-# Telegram DC5
-IP-ASN,62014,SG,no-resolve
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Telegram.list,Telegram,extended-matching
 
 # Twitter
