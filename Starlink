@@ -110,11 +110,11 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 # 机场信息 (encode地址链接: https://www.urlencoder.org）
 Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, update-interval=3600, hidden=false
 
-# 📹YouTube 视频
-YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+# YouTube 视频
+📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
 
-# ✈️Telegram 服务
-Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+# Telegram 服务
+✈️Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
 
 # ChatGPT 服务
 ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
@@ -175,13 +175,13 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Rulese
 RULE-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list,REJECT,extended-matching
 
 # YouTube 视频
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/Video/YouTube.list,YouTube,extended-matching
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Streaming/Video/YouTube.list,📹YouTube,extended-matching
 
 # ChatGPT 视频
 RULE-SET,https://raw.githubusercontent.com/waltcow/chatgpt-openclash/main/chatgpt.list,ChatGPT,extended-matching
 
 # Telegram 服务
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Telegram.list,Telegram,extended-matching
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Telegram.list,✈️Telegram,extended-matching
 
 # NAS 服务
 RULE-SET,https://raw.githubusercontent.com/jxywayne/SurgeRules/main/NAS.list,NAS,extended-matching
