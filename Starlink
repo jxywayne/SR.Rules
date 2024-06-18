@@ -194,6 +194,9 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Rulese
 # Direct
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Direct.list,DIRECT,extended-matching
 
+# 农业银行
+RULE-SET,https://whatshub.top/rule/ABC.list,DIRECT,extended-matching
+
 # Local Area Network
 RULE-SET,LAN,DIRECT
 
