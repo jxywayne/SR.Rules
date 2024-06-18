@@ -112,19 +112,19 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 Starlink = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, update-interval=3600, hidden=false
 
 # 区域代理选择
-PROXY = select, HK, TW, JP, SG, US
+PROXY = select, HK, TW, JP, SG, US, MY
 
 # 兜底策略
-Final = select, HK, TW, JP, SG, US, DIRECT
+Final = select, HK, TW, JP, SG, US, MY DIRECT
 
 # YouTube 视频
-YouTube = select, HK, TW, JP, SG, US
+YouTube = select, HK, TW, JP, SG, US, MY
 
 # Telegram 服务
-Telegram = select, HK, SG, US
+Telegram = select, HK, SG, US, MY
 
 # 国际流媒体服务
-Streaming = select, HK, TW, JP, SG, US
+Streaming = select, HK, TW, JP, SG, US, MY
 
 # 香港节点
 HK = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(港)|(Hong)|(HK), hidden=false
