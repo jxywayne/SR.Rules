@@ -184,7 +184,7 @@ RULE-SET,https://raw.githubusercontent.com/waltcow/chatgpt-openclash/main/chatgp
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Telegram.list,Telegram,extended-matching
 
 # NAS 服务
-RULE-SET,https://raw.githubusercontent.com/jxywayne/SurgeRules/main/NAS%E8%A7%84%E5%88%99,NAS,extended-matching
+RULE-SET,https://raw.githubusercontent.com/jxywayne/SurgeRules/main/NAS.list,NAS,extended-matching
 
 # Twitter
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/X.list,PROXY,extended-matching
