@@ -101,22 +101,22 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, update-interval=3600, hidden=false
 
 # YouTube 视频
-📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇲🇴澳门, 🇺🇸美国, 🇲🇾马来西亚
 
 # Telegram 服务
-✈️Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+✈️Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇲🇴澳门, 🇺🇸美国, 🇲🇾马来西亚
 
 # ChatGPT 服务
-🕸️ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+🕸️ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇲🇴澳门, 🇺🇸美国, 🇲🇾马来西亚
 
 # NAS 服务
-🗄️NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
+🗄️NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇲🇴澳门, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
 
 # 区域代理选择
-🗺️PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚
+🗺️PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇲🇴澳门, 🇺🇸美国, 🇲🇾马来西亚
 
 # 兜底策略
-🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
+🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇲🇴澳门, 🇺🇸美国, 🇲🇾马来西亚, DIRECT
 
 # 香港节点
 🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
@@ -132,6 +132,9 @@ Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/su
 
 # 马来西亚节点
 🇲🇾马来西亚 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇲🇾)|(马来)|(Malaysia)|(MY), hidden=false
+
+# 澳门节点
+🇲🇴澳门 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇲🇴)|(澳门)|(MaCcao)|(MO), hidden=false
 
 [Rule]
 # Custom
