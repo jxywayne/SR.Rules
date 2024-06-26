@@ -131,7 +131,7 @@ Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/su
 🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), hidden=false
 
 # 日本节点
-🇯🇵日本 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japen)|(JP), hidden=false
+🇯🇵日本 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), hidden=false
 
 [Rule]
 # Custom
