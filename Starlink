@@ -101,22 +101,22 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, update-interval=3600, hidden=false
 
 # YouTube 视频
-📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇯🇵日本
+📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国
 
 # Telegram 服务
-✈️Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇯🇵日本
+✈️Telegram = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国
 
 # ChatGPT 服务
-🕸️ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇯🇵日本
+🕸️ChatGPT = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国
 
 # NAS 服务
-🗄️NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇯🇵日本, DIRECT
+🗄️NAS = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国,DIRECT
 
 # 区域代理选择
-🗺️PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇯🇵日本
+🗺️PROXY = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国
 
 # 兜底策略
-🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, 🇯🇵日本, DIRECT
+🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, DIRECT
 
 # 香港节点
 🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
@@ -130,8 +130,6 @@ Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/su
 # 美国节点
 🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), hidden=false
 
-# 日本节点
-🇯🇵日本 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), hidden=false
 
 [Rule]
 # Custom
