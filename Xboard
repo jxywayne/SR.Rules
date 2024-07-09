@@ -98,7 +98,7 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 
 [Proxy Group]
 # 机场信息 (encode地址链接: https://www.urlencoder.org）
-Starlink星链 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=5a731cd8ceb27a59b23a5a6be179f073, update-interval=3600, hidden=false
+Xboard = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=5a731cd8ceb27a59b23a5a6be179f073, update-interval=3600, hidden=false
 
 # YouTube 视频
 📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国
