@@ -119,16 +119,16 @@ Xboard = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?
 🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇺🇸美国, DIRECT
 
 # 香港节点
-🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
+🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=5a731cd8ceb27a59b23a5a6be179f073, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
 
 # 台湾节点
-🇨🇳台湾 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW), hidden=false
+🇨🇳台湾 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=5a731cd8ceb27a59b23a5a6be179f073, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW), hidden=false
 
 # 新加坡节点
-🇸🇬新加坡 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇸🇬)|(新加坡)|(Singapore)|(SG), hidden=false
+🇸🇬新加坡 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=5a731cd8ceb27a59b23a5a6be179f073, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇸🇬)|(新加坡)|(Singapore)|(SG), hidden=false
 
 # 美国节点
-🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=b2a68fd8352c177e2deff97ef2a57b23, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), hidden=false
+🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=5a731cd8ceb27a59b23a5a6be179f073, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), hidden=false
 
 
 [Rule]
