@@ -131,6 +131,9 @@ Xboard = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?
 # 日本节点
 🇯🇵日本 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), hidden=false
 
+# 美国节点
+🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(USA)|(US), hidden=false
+
 
 [Rule]
 # Custom
