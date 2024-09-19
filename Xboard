@@ -98,7 +98,7 @@ Panel = title=TributePaulWalker,content=GitHub:https://github.com/TributePaulWal
 
 [Proxy Group]
 # 机场信息 (encode地址链接: https://www.urlencoder.org）
-Xboard = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, update-interval=3600, hidden=false
+Xboard = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, update-interval=3600, hidden=false
 
 # YouTube 视频
 📹YouTube = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇸美国, 🇩🇪德国, 🇬🇧英国
@@ -119,26 +119,26 @@ Xboard = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?
 🐟漏网之鱼 = select, 🇭🇰香港, 🇨🇳台湾, 🇸🇬新加坡, 🇯🇵日本, 🇺🇸美国, 🇩🇪德国, 🇬🇧英国, DIRECT
 
 # 香港节点
-🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
+🇭🇰香港 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), hidden=false
 
 # 台湾节点
-🇨🇳台湾 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW), hidden=false
+🇨🇳台湾 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW), hidden=false
 
 # 新加坡节点
-🇸🇬新加坡 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇸🇬)|(新加坡)|(Singapore)|(SG), hidden=false
+🇸🇬新加坡 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇸🇬)|(新加坡)|(Singapore)|(SG), hidden=false
 
 
 # 日本节点
-🇯🇵日本 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), hidden=false
+🇯🇵日本 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), hidden=false
 
 # 美国节点
-🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(USA)|(US), hidden=false
+🇺🇸美国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇺🇸)|(美国)|(USA)|(US), hidden=false
 
 # 德国节点
-🇩🇪德国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇩🇪)|(德国)|(Germany)|(DE), hidden=false
+🇩🇪德国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇩🇪)|(德国)|(Germany)|(DE), hidden=false
 
 # 英国节点
-🇬🇧英国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=ae50eaa8f9bffe75b9aeb79841996484, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇬🇧)|(英国)|(UK)|(GB), hidden=false
+🇬🇧英国 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=63fb1f7c3092706d3cb21b7e3ba85c3e, interval=600, tolerance=50, update-interval=86400, policy-regex-filter=(🇬🇧)|(英国)|(UK)|(GB), hidden=false
 
 
 [Rule]
