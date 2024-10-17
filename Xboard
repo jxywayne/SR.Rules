@@ -55,7 +55,7 @@ udp-policy-not-supported-behaviour = reject
 [Proxy Group]
 # > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。）
 节点选择 = select, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 新加坡节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, ✈️ 我的节点, icon-url=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/icon/surge_2.png
-谷歌服务 = select, DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
+Google = select, DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
 苹果服务 = select, DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
 电报信息 = select, DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 奈飞视频 = select, DIRECT, 节点选择, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
@@ -106,7 +106,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list,哔哩哔哩
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list,国内媒体
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia_All_No_Resolve.list,国外媒体
-# > 谷歌服务
+# > Google
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,谷歌服务
 # > Proxy
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list,节点选择
