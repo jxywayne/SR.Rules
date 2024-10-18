@@ -50,14 +50,14 @@ udp-policy-not-supported-behaviour = reject
 
 [Proxy Group]
 # > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。）
-手动选择 = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT,icon-url=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/icon/surge_2.png
-Google = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
-Telegram = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-Youtube = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-ChatGPT = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/ChatGPT5.png
-Speedtest = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/speedtest.png
-Github = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
-Global = 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/global.png
+手动选择 = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT,icon-url=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/icon/surge_2.png
+Google = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
+Telegram = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+Youtube = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+ChatGPT = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/ChatGPT5.png
+Speedtest = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/speedtest.png
+Github = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
+Global = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/global.png
 
 # > 外部节点
 
