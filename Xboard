@@ -50,13 +50,14 @@ udp-policy-not-supported-behaviour = reject
 
 [Proxy Group]
 # > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。）
-节点选择 = select, ✈️ 我的节点, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点,icon-url=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/icon/surge_2.png
+节点选择 = select, ✈️ 我的节点, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, DIRECT,icon-url=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/icon/surge_2.png
 Google = select, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
 Telegram = select, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 Youtube = select, 节点选择, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 ChatGPT = select, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/ChatGPT5.png
 Speedtest = select, 节点选择, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/speedtest.png
 Github = select, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
+Global = select, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, 🇩🇪 德国节点, 🇬🇧 英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/global.png
 
 # > 外部节点
 
@@ -92,8 +93,8 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Speedtest/Speedtest.list,Speedtest
 # > Github
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list,Github
-# > 国外常见网址
-RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Proxy/Proxy.list,节点选择
+# > GlobalWebsite
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Proxy/Proxy.list,Global
 # > 去广告
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Advertising/Advertising.list,REJECT
 # > 局域网地址
