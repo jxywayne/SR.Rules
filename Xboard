@@ -51,12 +51,12 @@ udp-policy-not-supported-behaviour = reject
 [Proxy Group]
 # > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。）
 
-Google = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点 icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/google.png
-Telegram = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点 icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/telegram.png
-Youtube = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点 icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/youtube.png
-ChatGPT = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点 icon-url=https://hoofei.com/clash/Icons/OpenAI.png
+Google = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/google.png
+Telegram = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/telegram.png
+Youtube = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/youtube.png
+ChatGPT = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://hoofei.com/clash/Icons/OpenAI.png
 Speedtest = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/speedtest.png
-Github = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点 icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
+Github = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
 Global = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/global.png
 
 # > 外部节点
