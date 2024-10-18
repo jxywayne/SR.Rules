@@ -43,8 +43,8 @@ always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.co
 # > Surge VIF
 # tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 # tun-included-routes = 192.168.1.12/32
-# > 禁用 GEOIP 自动更新
-disable-geoip-db-auto-update = true
+# > 不禁用 GEOIP 自动更新
+disable-geoip-db-auto-update = false
 # > 当节点不支持UDP时，默认fallback 到reject
 udp-policy-not-supported-behaviour = reject
 
