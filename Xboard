@@ -61,7 +61,7 @@ Global = select, 手动选择, 香港节点, 新加坡节点, 台湾节点, 美�
 
 # > 外部节点
 
-手动选择 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/catnet.png
+手动选择 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/swcloud.png
 
 香港节点 = smart, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/hk.png
 
