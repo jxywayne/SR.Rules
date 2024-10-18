@@ -84,6 +84,8 @@ Global = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸🇬新加
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_All.list,DIRECT,extended-matching
 # > PT站
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/PrivateTracker/PrivateTracker.list,DIRECT,extended-matching
+# > 去广告
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Advertising/Advertising.list,REJECT
 # > Youtube
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,Youtube
 # > ChatGPT
@@ -98,9 +100,7 @@ RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Su
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list,Github
 # > GlobalWebsite
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Proxy/Proxy.list,Global
-# > 去广告
-RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Advertising/Advertising.list,REJECT
 # > 局域网地址
 RULE-SET,LAN,DIRECT
-# > DNS 查询失败走 Final 规则
+# > Final 规则
 FINAL,漏网之鱼
