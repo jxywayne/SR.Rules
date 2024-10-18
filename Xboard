@@ -51,7 +51,7 @@ udp-policy-not-supported-behaviour = reject
 [Proxy Group]
 # > 策略组（下面的节点信息需与外部节点对应，若删除了外部节点里的节点，那么在策略组里也要删除。）
 
-Google = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
+Google = smart, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点, icon-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/google(1).png
 Telegram = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 Youtube = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点, icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 ChatGPT = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点, icon-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/ChatGPT5.png
