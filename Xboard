@@ -61,33 +61,19 @@ Global = select, 香港, 狮城, 台湾, 美国, 日本, 德国, 英国, DIRECT,
 
 # > 外部节点
 
-香港 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/hk.png
+香港 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/hk.png
 
-🇭🇰 香港节点 = smart, include-other-group=香港, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇭🇰)|(香港)|(Hong)|(HK), icon-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Hong_Kong.png
+狮城 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇸🇬)|(狮城)|(Singapore)|(SG), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/sg.png
 
-狮城 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/sg.png
+台湾 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW),icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/tw.png
 
-🇸🇬 狮城节点 = smart, include-other-group=狮城, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇸🇬)|(狮城)|(Singapore)|(SG), icon-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Singapore.png
+美国 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/us.png
 
-台湾 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/tw.png
+日本 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/jp.png
 
-🇨🇳 台湾节点 = smart, include-other-group=台湾, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇨🇳)|(台湾)|(Tai)|(TW), icon-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/China.png
+德国 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇩🇪)|(德国)|(Germany)|(DE), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/de.png
 
-美国 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/us.png
-
-🇺🇸 美国节点 = smart, include-other-group=美国, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇺🇸)|(美国)|(States)|(US), icon-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png
-
-日本 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/jp.png
-
-🇯🇵 日本节点 = smart, include-other-group=日本, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), icon-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Japan.png
-
-德国 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/de.png
-
-🇩🇪 德国节点 = smart, include-other-group=德国, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇩🇪)|(德国)|(Germany)|(DE), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/de.png
-
-英国 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/uk.png
-
-🇬🇧 英国节点 = smart, include-other-group=英国, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=(🇬🇧)|(英国)|(UK)|(GB), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/uk.png
+英国 = select, policy-path=https://xpanel.6969819.com/api/v1/client/subscribe?token=277d6d6986fdc42d02bdc2c75cf2b52f, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(🇬🇧)|(英国)|(UK)|(GB), icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/uk.png
 
 
 [Rule]
