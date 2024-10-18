@@ -55,7 +55,7 @@ Google = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日�
 Telegram = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️ icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 Youtube = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️ icon-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 ChatGPT = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️ icon-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/ChatGPT5.png
-Speedtest = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️ DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/speedtest.png
+Speedtest = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/speedtest.png
 Github = select, 香港节点, 新加坡节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️ icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
 Global = select, 香港节点, 新加节点, 台湾节点, 美国节点, 日本节点, 德国节点, 英国节点,松鼠云✈️, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/global.png
 
