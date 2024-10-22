@@ -81,98 +81,98 @@ PrivateTracker = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸�
 [Rule]
 
 # > Google
-  - DOMAIN-KEYWORD,googlevideo,Google
-  - DOMAIN-KEYWORD,google,Google
-  - DOMAIN-KEYWORD,youtube,Google
-  - DOMAIN-KEYWORD,ggpht,Google
-  - DOMAIN-KEYWORD,ytimg,Google
+DOMAIN-KEYWORD,googlevideo,Google
+DOMAIN-KEYWORD,google,Google
+DOMAIN-KEYWORD,youtube,Google
+DOMAIN-KEYWORD,ggpht,Google
+DOMAIN-KEYWORD,ytimg,Google
 # > OpenAI
-  - DOMAIN-KEYWORD,chatgpt,OpenAI
-  - DOMAIN-KEYWORD,openai,OpenAI
+DOMAIN-KEYWORD,chatgpt,OpenAI
+DOMAIN-KEYWORD,openai,OpenAI
 # > Telegram
-  - DOMAIN-KEYWORD,telegram,Telegram
-  - DOMAIN-KEYWORD,nicegram,Telegram
-  - GEOIP,telegram,Telegram
+DOMAIN-KEYWORD,telegram,Telegram
+DOMAIN-KEYWORD,nicegram,Telegram
+GEOIP,telegram,Telegram
 # > 国外电商
-  - DOMAIN-KEYWORD,allegro,国外电商
-  - DOMAIN-KEYWORD,ebay,国外电商
-  - DOMAIN-KEYWORD,amazon,国外电商
-  - DOMAIN-KEYWORD,cdiscount,国外电商
-  - DOMAIN-KEYWORD,aliexpress,国外电商
-  - DOMAIN-KEYWORD,manomao,国外电商
-  - DOMAIN-KEYWORD,walmart,国外电商
+DOMAIN-KEYWORD,allegro,国外电商
+DOMAIN-KEYWORD,ebay,国外电商
+DOMAIN-KEYWORD,amazon,国外电商
+DOMAIN-KEYWORD,cdiscount,国外电商
+DOMAIN-KEYWORD,aliexpress,国外电商
+DOMAIN-KEYWORD,manomao,国外电商
+DOMAIN-KEYWORD,walmart,国外电商
 # > 国内流量
-  - GEOIP,CN,DIRECT
+GEOIP,CN,DIRECT
 # > PT站
-  - DOMAIN-KEYWORD,lemonhd,PrivateTracker
-  - DOMAIN-KEYWORD,52pt,PrivateTracker
-  - DOMAIN-KEYWORD,1ptba,PrivateTracker
-  - DOMAIN-KEYWORD,audiences,PrivateTracker
-  - DOMAIN-KEYWORD,agsvpt,PrivateTracker
-  - DOMAIN-KEYWORD,btschool,PrivateTracker
-  - DOMAIN-KEYWORD,ptchdbits,PrivateTracker
-  - DOMAIN-KEYWORD,cyanbug,PrivateTracker
-  - DOMAIN-KEYWORD,carpt,PrivateTracker
-  - DOMAIN-KEYWORD,ptcafe,PrivateTracker
-  - DOMAIN-KEYWORD,dajiao,PrivateTracker
-  - DOMAIN-KEYWORD,discfan,PrivateTracker
-  - DOMAIN-KEYWORD,ecust,PrivateTracker
-  - DOMAIN-KEYWORD,0ff,PrivateTracker
-  - DOMAIN-KEYWORD,fsm,PrivateTracker
-  - DOMAIN-KEYWORD,greatposterwall,PrivateTracker
-  - DOMAIN-KEYWORD,hdsky,PrivateTracker
-  - DOMAIN-KEYWORD,hdhome,PrivateTracker
-  - DOMAIN-KEYWORD,hhanclub,PrivateTracker
-  - DOMAIN-KEYWORD,hdupt,PrivateTracker
-  - DOMAIN-KEYWORD,hdkyl,PrivateTracker
-  - DOMAIN-KEYWORD,hares,PrivateTracker
-  - DOMAIN-KEYWORD,hddolby,PrivateTracker
-  - DOMAIN-KEYWORD,hdvideo,PrivateTracker
-  - DOMAIN-KEYWORD,hdtime,PrivateTracker
-  - DOMAIN-KEYWORD,hdfans,PrivateTracker
-  - DOMAIN-KEYWORD,hdarea,PrivateTracker
-  - DOMAIN-KEYWORD,hdchina,PrivateTracker
-  - DOMAIN-KEYWORD,haidan,PrivateTracker
-  - DOMAIN-KEYWORD,icc2022,PrivateTracker
-  - DOMAIN-KEYWORD,ilolicon,PrivateTracker
-  - DOMAIN-KEYWORD,keepfrds,PrivateTracker
-  - DOMAIN-KEYWORD,kufei,PrivateTracker
-  - DOMAIN-KEYWORD,m-team,PrivateTracker
-  - DOMAIN-KEYWORD,monikadesign,PrivateTracker
-  - DOMAIN-KEYWORD,nicept,PrivateTracker
-  - DOMAIN-KEYWORD,ourbits,PrivateTracker
-  - DOMAIN-KEYWORD,oshen,PrivateTracker
-  - DOMAIN-KEYWORD,okpt,PrivateTracker
-  - DOMAIN-KEYWORD,ptvicomo,PrivateTracker
-  - DOMAIN-KEYWORD,pandapt,PrivateTracker
-  - DOMAIN-KEYWORD,pthome,PrivateTracker
-  - DOMAIN-KEYWORD,ptchina,PrivateTracker
-  - DOMAIN-KEYWORD,qingwapt,PrivateTracker
-  - DOMAIN-KEYWORD,leaves,PrivateTracker
-  - DOMAIN-KEYWORD,rousi,PrivateTracker
-  - DOMAIN-KEYWORD,ptsbao,PrivateTracker
-  - DOMAIN-KEYWORD,star-space,PrivateTracker
-  - DOMAIN-KEYWORD,soulvoice,PrivateTracker
-  - DOMAIN-KEYWORD,totheglory,PrivateTracker
-  - DOMAIN-KEYWORD,ubits,PrivateTracker
-  - DOMAIN-KEYWORD,wintersakura,PrivateTracker
-  - DOMAIN-KEYWORD,crabpt,PrivateTracker
-  - DOMAIN-KEYWORD,hdmayi,PrivateTracker
-  - DOMAIN-KEYWORD,zmpt,PrivateTracker
-  - DOMAIN-KEYWORD,zhuque,PrivateTracker
-  - DOMAIN-KEYWORD,hdatmos,PrivateTracker
-  - DOMAIN-KEYWORD,hddolby,PrivateTracker
-  - DOMAIN-KEYWORD,announce,PrivateTracker
-  - DOMAIN-KEYWORD,torrent,PrivateTracker
+DOMAIN-KEYWORD,lemonhd,PrivateTracker
+DOMAIN-KEYWORD,52pt,PrivateTracker
+DOMAIN-KEYWORD,1ptba,PrivateTracker
+DOMAIN-KEYWORD,audiences,PrivateTracker
+DOMAIN-KEYWORD,agsvpt,PrivateTracker
+DOMAIN-KEYWORD,btschool,PrivateTracker
+DOMAIN-KEYWORD,ptchdbits,PrivateTracker
+DOMAIN-KEYWORD,cyanbug,PrivateTracker
+DOMAIN-KEYWORD,carpt,PrivateTracker
+DOMAIN-KEYWORD,ptcafe,PrivateTracker
+DOMAIN-KEYWORD,dajiao,PrivateTracker
+DOMAIN-KEYWORD,discfan,PrivateTracker
+DOMAIN-KEYWORD,ecust,PrivateTracker
+DOMAIN-KEYWORD,0ff,PrivateTracker
+DOMAIN-KEYWORD,fsm,PrivateTracker
+DOMAIN-KEYWORD,greatposterwall,PrivateTracker
+DOMAIN-KEYWORD,hdsky,PrivateTracker
+DOMAIN-KEYWORD,hdhome,PrivateTracker
+DOMAIN-KEYWORD,hhanclub,PrivateTracker
+DOMAIN-KEYWORD,hdupt,PrivateTracker
+DOMAIN-KEYWORD,hdkyl,PrivateTracker
+DOMAIN-KEYWORD,hares,PrivateTracker
+DOMAIN-KEYWORD,hddolby,PrivateTracker
+DOMAIN-KEYWORD,hdvideo,PrivateTracker
+DOMAIN-KEYWORD,hdtime,PrivateTracker
+DOMAIN-KEYWORD,hdfans,PrivateTracker
+DOMAIN-KEYWORD,hdarea,PrivateTracker
+DOMAIN-KEYWORD,hdchina,PrivateTracker
+DOMAIN-KEYWORD,haidan,PrivateTracker
+DOMAIN-KEYWORD,icc2022,PrivateTracker
+DOMAIN-KEYWORD,ilolicon,PrivateTracker
+DOMAIN-KEYWORD,keepfrds,PrivateTracker
+DOMAIN-KEYWORD,kufei,PrivateTracker
+DOMAIN-KEYWORD,m-team,PrivateTracker
+DOMAIN-KEYWORD,monikadesign,PrivateTracker
+DOMAIN-KEYWORD,nicept,PrivateTracker
+DOMAIN-KEYWORD,ourbits,PrivateTracker
+DOMAIN-KEYWORD,oshen,PrivateTracker
+DOMAIN-KEYWORD,okpt,PrivateTracker
+DOMAIN-KEYWORD,ptvicomo,PrivateTracker
+DOMAIN-KEYWORD,pandapt,PrivateTracker
+DOMAIN-KEYWORD,pthome,PrivateTracker
+DOMAIN-KEYWORD,ptchina,PrivateTracker
+DOMAIN-KEYWORD,qingwapt,PrivateTracker
+DOMAIN-KEYWORD,leaves,PrivateTracker
+DOMAIN-KEYWORD,rousi,PrivateTracker
+DOMAIN-KEYWORD,ptsbao,PrivateTracker
+DOMAIN-KEYWORD,star-space,PrivateTracker
+DOMAIN-KEYWORD,soulvoice,PrivateTracker
+DOMAIN-KEYWORD,totheglory,PrivateTracker
+DOMAIN-KEYWORD,ubits,PrivateTracker
+DOMAIN-KEYWORD,wintersakura,PrivateTracker
+DOMAIN-KEYWORD,crabpt,PrivateTracker
+DOMAIN-KEYWORD,hdmayi,PrivateTracker
+DOMAIN-KEYWORD,zmpt,PrivateTracker
+DOMAIN-KEYWORD,zhuque,PrivateTracker
+DOMAIN-KEYWORD,hdatmos,PrivateTracker
+DOMAIN-KEYWORD,hddolby,PrivateTracker
+DOMAIN-KEYWORD,announce,PrivateTracker
+DOMAIN-KEYWORD,torrent,PrivateTracker
 # > 本地IP
-  - DOMAIN-SUFFIX,local,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,17.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR6,fe80::/10,DIRECT
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
+IP-CIDR,224.0.0.0/4,DIRECT
+IP-CIDR6,fe80::/10,DIRECT
 # > FINAL
-  - FINAL,漏网之鱼
+FINAL,漏网之鱼
