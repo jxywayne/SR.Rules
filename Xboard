@@ -54,7 +54,7 @@ udp-policy-not-supported-behaviour = reject
 Google = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/google.png
 Telegram = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/telegram.png
 OpenAI = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, icon-url=https://hoofei.com/clash/Icons/OpenAI.png
-Global = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/global.png
+Github = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/github.png
 国外电商 = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/blibee.png
 PrivateTracker = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/cylink.png
 漏网之鱼 = select, 松鼠云🐿️, 🇭🇰香港节点, 🇸🇬新加坡节点, 🇨🇳台湾节点, 🇺🇸美国节点, 🇯🇵日本节点, 🇩🇪德国节点, 🇬🇧英国节点, DIRECT, icon-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/final.png
@@ -93,6 +93,13 @@ DOMAIN-KEYWORD,openai,OpenAI
 DOMAIN-KEYWORD,telegram,Telegram
 DOMAIN-KEYWORD,nicegram,Telegram
 GEOIP,telegram,Telegram
+# > Github
+DOMAIN-KEYWORD,github，Github
+DOMAIN-KEYWORD,rawgit，Github
+DOMAIN-KEYWORD,repo，Github
+DOMAIN-KEYWORD,myoctocat，Github
+DOMAIN-KEYWORD,npm，Github
+DOMAIN-KEYWORD,ghcr，Github
 # > 国外电商
 DOMAIN-KEYWORD,allegro,国外电商
 DOMAIN-KEYWORD,ebay,国外电商
