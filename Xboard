@@ -80,20 +80,20 @@ PrivateTracker = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸�
 
 [Rule]
 
-# 分流-Google
+# > Google
   - DOMAIN-KEYWORD,googlevideo,Google
   - DOMAIN-KEYWORD,google,Google
   - DOMAIN-KEYWORD,youtube,Google
   - DOMAIN-KEYWORD,ggpht,Google
   - DOMAIN-KEYWORD,ytimg,Google
-# 分流-OpenAI
+# > OpenAI
   - DOMAIN-KEYWORD,chatgpt,OpenAI
   - DOMAIN-KEYWORD,openai,OpenAI
-# 分流-Telegram
+# > Telegram
   - DOMAIN-KEYWORD,telegram,Telegram
   - DOMAIN-KEYWORD,nicegram,Telegram
   - GEOIP,telegram,Telegram
-# 分流-国外电商
+# > 国外电商
   - DOMAIN-KEYWORD,allegro,国外电商
   - DOMAIN-KEYWORD,ebay,国外电商
   - DOMAIN-KEYWORD,amazon,国外电商
@@ -101,9 +101,9 @@ PrivateTracker = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸�
   - DOMAIN-KEYWORD,aliexpress,国外电商
   - DOMAIN-KEYWORD,manomao,国外电商
   - DOMAIN-KEYWORD,walmart,国外电商
-# 分流-国内流量
+# > 国内流量
   - GEOIP,CN,DIRECT
-# 分流-PT站
+# > PT站
   - DOMAIN-KEYWORD,lemonhd,PrivateTracker
   - DOMAIN-KEYWORD,52pt,PrivateTracker
   - DOMAIN-KEYWORD,1ptba,PrivateTracker
@@ -164,7 +164,7 @@ PrivateTracker = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸�
   - DOMAIN-KEYWORD,hddolby,PrivateTracker
   - DOMAIN-KEYWORD,announce,PrivateTracker
   - DOMAIN-KEYWORD,torrent,PrivateTracker
-# 分流-本地IP
+# > 本地IP
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
@@ -174,5 +174,5 @@ PrivateTracker = select, 🙋‍♂️手动选择, 🇭🇰香港节点, 🇸�
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
   - IP-CIDR6,fe80::/10,DIRECT
-# 分流-FINAL
+# > FINAL
   - FINAL,漏网之鱼
