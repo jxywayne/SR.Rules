@@ -94,12 +94,12 @@ DOMAIN-KEYWORD,telegram,Telegram
 DOMAIN-KEYWORD,nicegram,Telegram
 GEOIP,telegram,Telegram
 # > Github
-DOMAIN-KEYWORD,github，Github
-DOMAIN-KEYWORD,rawgit，Github
-DOMAIN-KEYWORD,repo，Github
-DOMAIN-KEYWORD,myoctocat，Github
-DOMAIN-KEYWORD,npm，Github
-DOMAIN-KEYWORD,ghcr，Github
+DOMAIN-KEYWORD,github,Github
+DOMAIN-KEYWORD,rawgit,Github
+DOMAIN-KEYWORD,repo,Github
+DOMAIN-KEYWORD,myoctocat,Github
+DOMAIN-KEYWORD,npm,Github
+DOMAIN-KEYWORD,ghcr,Github
 # > 国外电商
 DOMAIN-KEYWORD,allegro,国外电商
 DOMAIN-KEYWORD,ebay,国外电商
