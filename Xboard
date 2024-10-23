@@ -88,7 +88,6 @@ DOMAIN-KEYWORD,openai,OpenAI
 # > Telegram
 DOMAIN-KEYWORD,telegram,Telegram
 DOMAIN-KEYWORD,nicegram,Telegram
-GEOIP,telegram,Telegram
 # > Github
 DOMAIN-KEYWORD,github,Github
 DOMAIN-KEYWORD,rawgit,Github
