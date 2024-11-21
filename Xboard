@@ -103,44 +103,8 @@ DOMAIN-KEYWORD,aliexpress,国外电商
 DOMAIN-KEYWORD,manomao,国外电商
 DOMAIN-KEYWORD,walmart,国外电商
 # > HBOMAX
-DOMAIN-SUFFIX,hbo.com,HBO
-DOMAIN-SUFFIX,hbo.com.c.footprint.net,HBO
-DOMAIN-SUFFIX,hbo.com.edgesuite.net,HBO
-DOMAIN-SUFFIX,hbo.map.fastly.net,HBO
-DOMAIN-SUFFIX,hboasia.com,HBO
-DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,HBO
-DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,HBO
-DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,HBO
-DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,HBO
-DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,HBO
-DOMAIN-SUFFIX,hboasialive.akamaized.net,HBO
-DOMAIN-SUFFIX,hbogeo.cust.footprint.net,HBO
-DOMAIN-SUFFIX,hbogo.co.th,HBO
-DOMAIN-SUFFIX,hbogo.com,HBO
-DOMAIN-SUFFIX,hbogo.eu,HBO
-DOMAIN-SUFFIX,hbogoasia.com,HBO
-DOMAIN-SUFFIX,hbogoasia.hk,HBO
-DOMAIN-SUFFIX,hbogoasia.id,HBO
-DOMAIN-SUFFIX,hbogoasia.ph,HBO
-DOMAIN-SUFFIX,hbogoasia.sg,HBO
-DOMAIN-SUFFIX,hbogoasia.tw,HBO
-DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,HBO
-DOMAIN-SUFFIX,hbolb.onwardsmg.com,HBO
-DOMAIN-SUFFIX,hbomax.com,HBO
-DOMAIN-SUFFIX,hbomaxcdn.com,HBO
-DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net,HBO
-DOMAIN-SUFFIX,hbonow.com,HBO
-DOMAIN-SUFFIX,hbounify-prod.evergent.com,HBO
-DOMAIN-SUFFIX,manifest.prod.boltdns.net,HBO
-DOMAIN-SUFFIX,maxgo.com,HBO
-DOMAIN-SUFFIX,now-ashare.com,HBO
-DOMAIN-SUFFIX,now-tv.com,HBO
-DOMAIN-SUFFIX,now.com,HBO
-DOMAIN-SUFFIX,now.com.hk,HBO
-DOMAIN-SUFFIX,nowe.com,HBO
-DOMAIN-SUFFIX,nowe.hk,HBO
-DOMAIN-SUFFIX,players.brightcove.net,HBO
-DOMAIN-SUFFIX,youboranqs01.com,HBO
+DOMAIN-KEYWORD,hbo.com,HBO
+DOMAIN-KEYWORD,max.com,HBO
 # > 国内流量
 GEOIP,CN,DIRECT
 # > PT站
@@ -215,4 +179,5 @@ IP-CIDR,100.64.0.0/10,DIRECT
 IP-CIDR,224.0.0.0/4,DIRECT
 IP-CIDR6,fe80::/10,DIRECT
 # > FINAL
+DOMAIN-KEYWORD,135789,DIRECT
 FINAL,漏网之鱼
